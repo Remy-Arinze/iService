@@ -1,0 +1,100 @@
+.reportContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.reportCard {
+    box-shadow: 1px 1px 3px 4px rgb(247, 247, 247);
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 1rem 1.7rem;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.selectAgency {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.selectAgency select {
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid rgb(225, 225, 225);
+    padding: 2px 1px;
+
+}
+
+
+.reportBtn {
+    padding: 8px 20px;
+    background-color: rgb(0, 19, 0);
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-top: 2rem;
+}
+
+.textarea {
+    outline: none;
+    background-color: rgb(252, 252, 252);
+    border: none;
+    padding: 5px 10px;
+    resize: none;
+    width: 100%;
+}
+
+.file {
+    height: 50px;
+    display: none;
+    background-color: aquamarine;
+}
+
+.label {
+    background-color: rgb(0, 19, 0);
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 30px;
+    border-radius: 5px;
+    top: 1rem;
+    left: 1rem;
+
+}
+
+.label:hover {
+    cursor: pointer;
+}
+
+.imageurl {
+    padding-top: 2rem;
+    font-size: 10px;
+}
+
+.done {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(222, 222, 222);
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.reportDone {
+    color: rgb(0, 152, 102);
+}

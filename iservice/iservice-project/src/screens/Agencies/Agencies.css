@@ -1,0 +1,107 @@
+.agencyDescContainer {
+    position: relative;
+}
+
+.agencyDescContainer>img {
+    position: fixed;
+    right: 150px;
+    z-index: -1;
+    top: 400px;
+    width: 200px;
+}
+
+.agenciesContainer {
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.agencyContent {
+    display: flex;
+
+}
+
+.agenciesTitle {
+    margin: 3rem 0 0rem 0;
+    font-size: 13px;
+    color: rgb(66, 66, 66);
+}
+
+.agencyList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.agencyCard {
+    width: 60%;
+    display: flex;
+    border-radius: 8px;
+    height: 200px;
+    margin-top: 1rem;
+    background-color: rgb(247, 247, 247);
+    transition: 0.5s all ease-in-out;
+
+}
+
+.agencyCard:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.agencyImg {
+    width: 30%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.agencyImg img {
+    width: 8rem;
+}
+
+.agencyDetails {
+    padding: 1rem;
+}
+
+.agencyName {
+    color: rgb(0, 18, 0);
+}
+
+.agencyDescription {
+    background-color: rgba(234, 234, 234, 0.346);
+    backdrop-filter: blur(8px);
+    height: 500px;
+    width: 300px;
+    padding: 0 1rem;
+    position: fixed;
+    right: 6rem;
+    border-radius: 8px;
+}
+
+.descriptionImg {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.websiteLink {
+    color: rgb(0, 0, 88);
+}
+
+.descriptionImg img {
+    width: 8rem;
+}
+
+.descriptionDesc {
+    font-size: 13px;
+}
+
+hr {
+    margin: .5rem 0;
+}

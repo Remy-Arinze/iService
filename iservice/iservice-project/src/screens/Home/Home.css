@@ -1,0 +1,138 @@
+.container {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleText {
+    color: #082821;
+    margin-bottom: 10px;
+}
+
+.landingBtn {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 98, 98);
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.crimeSpan {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.agenciesStrip {
+    background-color: #082821;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+}
+
+.feedback {
+    margin-top: 6rem;
+}
+
+.citizenFeedback {
+    text-align: center;
+}
+
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e8fbe7;
+    width: 20%;
+    margin: 2rem 0 1rem 0;
+    padding: 1rem;
+}
+
+.swiper {
+    width: 50%;
+}
+
+.slideImg {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #082821;
+}
+
+.reportName {
+    margin: 1rem;
+}
+
+.reportmsg {
+    margin-bottom: 2rem;
+}
+
+.date {
+    text-align: end;
+    width: 80%;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.lastpage {
+    margin-top: 4rem;
+    padding-top: 6rem;
+    width: 85%;
+    margin: 0 auto
+}
+
+.lastpage .bigText {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.littleText {
+    color: #082821;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem 0;
+}
+
+.reviewHeader {
+    display: flex;
+    align-items: center;
+
+}
+
+.reviewImg {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #082821;
+    margin-right: 3rem;
+}
+
+.reviewCard {
+    padding: .5rem .5rem;
+    width: 30%;
+    height: 220px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.reviewText {
+    margin-top: 2rem;
+    font-size: 14px;
+    text-align: center;
+}

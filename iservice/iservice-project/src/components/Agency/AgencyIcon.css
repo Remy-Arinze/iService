@@ -1,0 +1,15 @@
+.agencyIcon {
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agencyIconImg {
+    width: 6rem;
+    margin-bottom: 5px;
+}
+
+.agencyIconName {
+    color: white;
+}
