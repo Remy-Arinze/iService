@@ -4,7 +4,10 @@ import './AgencyIcon.css'
 function AgencyIcon({ src, name }) {
     return (
         <div className="agencyIcon">
-            <img src={src} alt="" className="agencyIconImg" />
+            <div className="agencyIconImg">
+                <img src={src} alt="" className="agencyIconImg" />
+
+            </div>
             <p className="agencyIconName">{name}</p>
         </div>
     )

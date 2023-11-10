@@ -33,12 +33,12 @@ function Home() {
         </div>
 
         <div class="agenciesStrip">
-            <AgencyIcon src={require("../../assets/efcc.png")} name='Efcc Nigeria' />
+            <AgencyIcon src={require("../../assets/frsc.png")} name='FRSC Nigeria' />
             <AgencyIcon src={require("../../assets/fireService.png")} name='Nigerian Fire-service' />
             <AgencyIcon src={require("../../assets/Nigerianpolice.png")} name='Nigeria police' />
-            <AgencyIcon src={require("../../assets/icpc.png")} name='Icpc Nigeria' />
+            <AgencyIcon src={require("../../assets/uuth.jpg")} name='UUTH Uyo' />
             <AgencyIcon src={require("../../assets/nerc.png")} name='Nerc' />
-            <AgencyIcon src={require("../../assets/servicom.jpeg")} name='SERVICOM' />
+            <AgencyIcon src={require("../../assets/redCross.png")} name='Nigerian Redcross' />
             <AgencyIcon src={require("../../assets/ncc.png")} name='NCC Nigeria' />
 
         </div>

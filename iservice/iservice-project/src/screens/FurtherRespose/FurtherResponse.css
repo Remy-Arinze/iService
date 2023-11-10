@@ -1,0 +1,105 @@
+.FRContainer {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 0;
+    justify-content: space-between;
+}
+
+.needHelp {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+
+.tapTheButton {
+    color: grey;
+    font-size: 15px;
+}
+
+.button {
+    height: 150px;
+    width: 150px;
+    margin: 4rem 0;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 3px rgb(174, 174, 174);
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstAidTitle {
+    margin-bottom: 14px;
+}
+
+.firstAidSlide {
+    display: flex;
+    align-items: start;
+    padding-inline: 10px;
+    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 3px 5px rgb(239, 239, 239);
+    width: 10px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(250, 250, 250);
+    font-size: 14px;
+}
+
+.srollableRow {
+    height: 150px;
+    margin-top: 1rem;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftFrame,
+.middleFrame,
+.endFrame {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-left: 0.5px solid rgb(203, 203, 203);
+    border-right: 0.5px solid rgb(203, 203, 203); */
+}
+
+.endFrame {
+    flex: 2;
+}
+
+.map {
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsResponse {
+    background-color: bisque;
+    width: 100%;
+}
+
+.team {
+    border: 0.5px solid rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.res {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
